@@ -2146,6 +2146,13 @@ th:nth-child(2n), td:nth-child(2n){
 	width: 60vw;
 }
 
+.swiper_img{
+	height: 800px;
+	width: 100%;
+	object-fit: cover;
+	object-position: top center;
+}
+
 .modal2{
 	display: none;
 	background-color: var(--overlay-color-1);
