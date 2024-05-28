@@ -2603,6 +2603,8 @@ video::-webkit-media-controls-panel{
 	align-items: center;
 	justify-content: center;
 	justify-items: center;
+	z-index: 4;
+	background: rgb(100 188 250 / 19%);
 }
 .hero_overlay h1{
 	-webkit-text-stroke: 2px white;
