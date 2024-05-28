@@ -2264,32 +2264,16 @@ footer{
 }
 
 
-.product_slider .swiper-button-prev, .product_slider .swiper-button-next{
+.swiper-button-prev, .swiper-button-next{
 	top: unset;
 	bottom: 0;
-	background-color: white);
-	z-index: 90;
+	background-color: white;
+	z-index: 5;
 	width: unset;
 	height: unset;
-	color: var(--white);
+	color: black;
 }
 
-
-.product_slider .swiper-button-prev{
-	left: 0;
-	/* border-top: 3px solid var(--white);
-	border-right: 3px solid var(--white); */
-	padding: .5rem 4rem .5rem .5rem;
-	clip-path: polygon(0 0, 85% 0, 100% 100%, 0% 100%);
-}
-
-.product_slider .swiper-button-next{
-	right: 0;
-	/* border-left: 3px solid var(--white);
-	border-top: 3px solid var(--white); */
-	padding: .5rem .5rem .5rem 4rem;
-	clip-path: polygon(15% 0, 100% 0, 100% 100%, 0% 100%);
-}
 
 .product_slider .swiper-button-next::after, .product_slider .swiper-button-prev::after{
 	font-size: 20px;
