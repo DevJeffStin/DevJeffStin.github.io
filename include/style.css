@@ -1,6 +1,6 @@
 :root{
     /* Standard Colors */
-	--color-1: rgba(147, 193, 191, 1);
+	--color-1: rgba(158, 240, 217, 1);
 	--color-2: rgba(196, 221, 220, 1);
 	--color-3: rgba(71, 123, 119, 1);
 	--color-4: rgba(216, 210, 184, 1);
@@ -15,9 +15,9 @@
 	--black: rgba(20, 20, 20, 1);
 	
 	/* Overlay Colors */
-	--overlay-color-1-weak: rgba(147, 193, 191, .25);
-	--overlay-color-1: rgba(147, 193, 191, .50);
-	--overlay-color-1-strong: rgba(147, 193, 191, .75);
+	--overlay-color-1-weak: rgba(158, 240, 217, .25);
+	--overlay-color-1: rgba(158, 240, 217, .50);
+	--overlay-color-1-strong: rgba(158, 240, 217, .75);
 	
 	--overlay-color-2-weak: rgba(196, 221, 220, .25);
 	--overlay-color-2: rgba(196, 221, 220, .50);
@@ -2057,7 +2057,9 @@ th:nth-child(2n), td:nth-child(2n){
 
 .id-card{
 	float: right;
-	
+   	width: 350px;
+    	background: var(--color-1);
+    	padding: 20px 40px;
 }
 
 
