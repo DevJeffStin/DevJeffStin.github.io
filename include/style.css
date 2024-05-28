@@ -2055,11 +2055,19 @@ th:nth-child(2n), td:nth-child(2n){
 
 /*========== Team Cards ==========*/
 
-.id-card{
+.id-float{
 	float: right;
    	width: 350px;
     	background: var(--color-1);
     	padding: 20px 40px;
+}
+
+.id-float img{
+
+}
+
+.id-float p{
+
 }
 
 
