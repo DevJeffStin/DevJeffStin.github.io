@@ -2057,13 +2057,13 @@ th:nth-child(2n), td:nth-child(2n){
 
 .id-float{
 	float: right;
-   	width: 350px;
+   	width: 200px;
     	background: var(--color-1);
     	padding: 20px 40px;
 }
 
 .id-float img{
-
+	aspect-ratio: 1/1;
 }
 
 .id-float p{
