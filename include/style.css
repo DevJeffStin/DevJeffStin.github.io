@@ -76,9 +76,9 @@
 	/* Swiper Colors*/
 	--swiper-navigation-color: var(--color-1);
 	--swiper-theme-color: var(--white);
-	--swiper-pagination-bullet-horizontal-gap: 2px;
-	--swiper-pagination-bullet-width: 20px;
-	--swiper-pagination-bullet-height: 6px;
+	--swiper-pagination-bullet-horizontal-gap: 10px;
+	--swiper-pagination-bullet-width: 10px;
+	--swiper-pagination-bullet-height: 10px;
 	
 	/* Backend Colors */
 	--backend-green: rgba(11, 220, 132, 1);
