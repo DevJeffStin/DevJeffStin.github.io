@@ -2585,6 +2585,7 @@ video::-webkit-media-controls-panel{
 
 .hero_cont{
 	position: relative;
+	margin-top: 80px;
 }
 
 .hero_img{
