@@ -55,7 +55,7 @@
 	/* Default Sizes */
 	--default: 40px;
 	--half: 20px;
-    --fourth: 10px;
+        --fourth: 10px;
 	--double: 80px;
 	--quad: 160px;
 	
@@ -1395,7 +1395,7 @@ th:nth-child(2n), td:nth-child(2n){
 
 .header_link, .dropdown, .dropbtn{
 	font-weight: 600;
-	font-size: .80rem;
+	font-size: 1rem;
 }
 
 .dropbtn{
