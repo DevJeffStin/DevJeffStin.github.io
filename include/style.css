@@ -528,85 +528,9 @@ ul{
 	transition: background-size .5s ease-in-out;
 }
 
-.bg-rocks{
-	background: url('https://www.dntmedia.cloud/murfreesboro/images/overlays/index_overlay.png');
-	min-height: 430px;
-	background-repeat: no-repeat;
-	background-size: 100%;
-	background-position: top center;
-	padding-top: 320px;
-	padding-bottom: 40px;
-	margin-top: -250px;
-	z-index: 1;
-	background-size: 100% 100%;
-}
-
-.bg-rocksint{
-	background: url('https://www.dntmedia.cloud/murfreesboro/images/overlays/index_overlay_ttd.png');
-	background-repeat: no-repeat;
-	background-size: 100%;
-	background-position: top center;
-	padding-top: 200px;
-	padding-bottom: 40px;
-	margin-top: -300px;
-	z-index: 1;
-	background-size: 100% 100%;
-}
-
-.bg-algorithm{
-	background: url('https://www.dntmedia.cloud/murfreesboro/images/overlays/digscover_background.jpg');
-	background-repeat: no-repeat;
-	background-size: 100%;
-	background-position: top center;
-	padding-top: 30px;
-	padding-bottom: 40px;
-	z-index: 1;
-	background-size: 100% 100%;
-}
-
-.bg-spotlight{
-	background: url('https://www.dntmedia.cloud/murfreesboro/images/overlays/blue_spotlight_background.jpg');
-	background-repeat: no-repeat;
-	background-size: 100%;
-	background-position: top center;
-	padding-top: 30px;
-	padding-bottom: 40px;
-	z-index: 1;
-	background-size: 100% 100%;
-	margin-top:-10px;
-}
-
 
 .bg-fadeint{
 	background-image: linear-gradient(to bottom, var(--color-5), var(--white));
-}
-
-.bg-restaurant{
-	background-image: linear-gradient(to bottom, var(--overlay-color-1-strong), var(--overlay-color-1-strong)),
-		url('https://www.dntmedia.cloud/murfreesboro/images/sign.jpg');
-	background-attachment: fixed;
-	background-repeat: no-repeat;
-	background-size: cover;
-	background-position: top center;
-}
-
-.bg-lodging{
-	background: url('https://www.dntmedia.cloud/murfreesboro/images/overlays/lodging.png');
-	background-repeat: no-repeat;
-	background-size: 100%;
-	background-position: bottom center;
-}
-
-.bg-social{
-	background-image: url('https://www.dntmedia.cloud/murfreesboro/images/svg/Water.svg'), 
-		linear-gradient(180deg, rgba(255, 255, 255, 1) 0%, var(--color-2) 94.5%, rgba(148,194,192,1) 95%);
-		
-	background-image: url('https://www.dntmedia.cloud/murfreesboro/images/svg/Water2.svg'), 
-		linear-gradient(180deg, rgba(255, 255, 255, 1) 0%, var(--color-2) 90%);
-		
-	background-repeat: no-repeat;
-	background-size: cover;
-	background-position: top center;
 }
 
 /*========== Overlays ==========*/
@@ -2189,8 +2113,7 @@ th:nth-child(2n), td:nth-child(2n){
 footer{
 	margin-top:auto;
 	border-top: 10px solid var(--color-3);
-	background-image: url('https://www.dntmedia.cloud/murfreesboro/images/overlays/Footer2.png'),
-		linear-gradient(to bottom, var(--color-2), var(--color-2));
+	background-image: black;
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: top center;
@@ -3420,13 +3343,7 @@ label div:first-of-type:not(.location_min-height,.featured){
 	.thirty{
 		max-width: 100%;
 	}
-	.bg-lodging{
-		background: url('https://www.dntmedia.cloud/murfreesboro/images/overlays/lodging_mobile.png');
-		background-repeat: no-repeat;
-		background-position: top center;
-		background-size: cover;
-		padding: 100px 0;
-	}
+	
 	.quad-spacing {
 	  margin-top: var(--default);
 	  margin-bottom: var(--default);
