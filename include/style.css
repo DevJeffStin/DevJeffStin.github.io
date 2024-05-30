@@ -2113,7 +2113,7 @@ th:nth-child(2n), td:nth-child(2n){
 footer{
 	margin-top:auto;
 	border-top: 10px solid var(--color-3);
-	background: black;
+	background: var(--black);
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: top center;
