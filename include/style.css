@@ -1358,6 +1358,7 @@ th:nth-child(2n), td:nth-child(2n){
 	justify-content: center;
 	cursor: pointer;
 	text-decoration: none;
+	font-family: "Source Code Pro", monospace;
 }
 
 .dropdown_link{
