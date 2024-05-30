@@ -2125,14 +2125,14 @@ footer{
 }
 
 .footer_heading{
-	color: var(--black);
+	color: var(--white);
 	margin: 0;
 }
 
 .footer_list{
 	list-style: none;
 	padding: 0;
-	color: var(--black);
+	color: var(--white);
 }
 
 .footer_list li a{
