@@ -117,6 +117,9 @@
 						<p>Gaming has been a hobby of Jefferson's since he got his first PS1 when he was 6, since then he has put many hours becoming a mediocre player.</p>
 					</div>
 				</div>
+				<div class="swiper-button-next"></div>
+    				<div class="swiper-button-prev"></div>
+				<div class="swiper-pagination"></div>
 			</div>
 		</div>
 	</seciton>
@@ -149,6 +152,22 @@
 		<script>
 			var swiper = new Swiper(".mySwiper", {
 				slidesPerView: 1,
+				spaceBetween: 30,
+				loop: true,
+				pagination: {
+					el: ".swiper-pagination",
+					clickable: true,
+				},
+				navigation: {
+					nextEl: ".swiper-button-next",
+					prevEl: ".swiper-button-prev",
+				},
+			});
+
+
+
+			var swiper = new Swiper(".mySwiper2", {
+				slidesPerView: 3,
 				spaceBetween: 30,
 				loop: true,
 				pagination: {
