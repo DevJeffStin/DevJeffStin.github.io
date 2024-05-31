@@ -2497,6 +2497,7 @@ video::-webkit-media-controls-panel{
 	padding: 20px 40px;
 	max-width: 50%;
 	margin-bottom: 40px;
+	width: 450px;
 }
 
 
