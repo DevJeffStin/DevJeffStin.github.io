@@ -1985,6 +1985,7 @@ th:nth-child(2n), td:nth-child(2n){
    	width: 200px;
     	background: var(--color-1);
     	padding: 20px 40px;
+	margin-left: 30px;
 }
 
 .id-float img{
