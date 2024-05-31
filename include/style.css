@@ -2492,8 +2492,10 @@ video::-webkit-media-controls-panel{
 }
 
 .hero_desc div{
-	background: rgba(200,200,200,.8);
-	padding: 40px 20px;
+	background: rgba(230,255,255,.8);
+	padding: 20px 40px;
+	max-width: 50%;
+	margin-bottom: 40px;
 }
 
 
