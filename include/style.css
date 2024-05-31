@@ -2140,6 +2140,7 @@ footer{
 	text-decoration: none;
 	display: block;
 	margin-bottom: 0px;
+	color: var(--white);
 }
 
 .footer_list li a:hover{
