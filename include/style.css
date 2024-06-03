@@ -1961,6 +1961,19 @@ footer{
 
 /*========== Swiper Overrides ==========*/
 
+.swiper-button-prev, .swiper-button-next{
+	background-color: white;
+	z-index: 5;
+	width: unset;
+	height: unset;
+	color: black;
+	padding: 8px;
+}
+
+.hobbyswiper .swiper-wrapper .swiper-button-next, .hobbyswiper .swiper-wrapper .swiper-button-prev {
+    background-color: var(--color-1);
+}
+
 
 .new-card{
 	padding: 15px 10px;
@@ -2009,44 +2022,6 @@ footer{
 	margin-bottom: 5px;
 }
 
-
-.test_slider .swiper-button-prev, .test_slider .swiper-button-next{
-	top: unset;
-	bottom: 45%;
-	background-color: var(--color-1);
-	z-index: 90;
-	width: unset;
-	height: unset;
-	color: var(--white);
-}
-
-
-.test_slider .swiper-button-prev{
-	left: 0;
-	/* border-top: 3px solid var(--white);
-	border-right: 3px solid var(--white); */
-	padding: .5rem 1.5rem .5rem .5rem;
-	clip-path: polygon(0 0, 90% 10%, 90% 90%, 0 100%);
-	
-}
-
-.test_slider .swiper-button-next{
-	right: 0;
-	/* border-left: 3px solid var(--white);
-	border-top: 3px solid var(--white); */
-	padding: .5rem .5rem .5rem 2rem;
-	clip-path: polygon(25% 10%, 100% 0px, 100.00% 100.00%, 25% 90%);
-}
-
-.test-name{
-	background-color: var(--color-1);
-	padding: 15px 120px;
-	clip-path: polygon(0 0, 100% 0, 85% 100%, 15% 100%);
-	text-align: center;
-}
-.test_slider-cont{
-	padding: 30px;
-}
 
 
 
@@ -3367,7 +3342,8 @@ label div:first-of-type:not(.location_min-height,.featured){
 	.large .demi-bold{
 		line-height: 1.2;
 	}
-	
+
+
 	
 	.mySwiper2{
 		width: 95vw;
