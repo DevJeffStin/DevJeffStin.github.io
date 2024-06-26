@@ -1798,7 +1798,7 @@ th:nth-child(2n), td:nth-child(2n){
 .id-float{
 	float: right;
    	width: 200px;
-    	background: var(--color-1);
+    	background: var(--color-2);
     	padding: 20px 40px;
 	margin-left: 30px;
 }
@@ -1997,6 +1997,7 @@ footer{
 .hobby-card{
 	background: var(--color-2);
 	padding: 40px 20px;
+	height: 350px;
 }
 
 .hobby-card img{
