@@ -1391,7 +1391,9 @@ th:nth-child(2n), td:nth-child(2n){
 	right: 0;
 	left: unset;
 }
-
+.header_link i {
+    margin-right: 5px;
+}
 
 
 /*===== Expanding Menu Items =====*/
